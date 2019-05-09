@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/img4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Network Image"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eturl"
+        android:hint="Enter Image URL"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onLoadBtnClicked"
+        android:text="Load"
+        android:textColor="#ffffff" />
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView1"/>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+       >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
+            android:text="Rotate 90"
+            android:onClick="onRotateClicked1"
+           />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate 180"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
+            android:onClick="onRotateClicked2"
+           />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate 270"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:onClick="onRotateClicked3"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate 360"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
+            android:onClick="onRotateClicked4"
+            />
+    </GridLayout>
+
+</LinearLayout>

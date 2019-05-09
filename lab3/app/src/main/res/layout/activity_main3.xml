@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:background="@drawable/img3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="PERSONAL DETAILS"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="155dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="84dp"
+            android:text="ENTER NAME"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="123dp"
+            android:ems="10"
+            android:hint="ENTER NAME"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="233dp"
+            android:layout_marginEnd="-278dp"
+            android:layout_toStartOf="@+id/editText1"
+            android:text="AGE"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="156dp"
+            android:layout_marginLeft="156dp"
+            android:layout_marginTop="266dp"
+            android:ems="10"
+            android:hint="ENTER AGE"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginBottom="191dp"
+            android:text="CLASS"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginBottom="128dp"
+            android:ems="10"
+            android:hint="ENTER CLASS"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="99dp"
+            android:layout_marginLeft="99dp"
+            android:layout_marginBottom="58dp"
+            android:text="BACK TO LINEAR LAYOUT" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

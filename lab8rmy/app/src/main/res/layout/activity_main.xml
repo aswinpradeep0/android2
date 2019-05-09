@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STUDENT DETAILS" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/lt">
+
+        <TextView
+            style="@style/intext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RNO:" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/intext1"
+            android:id="@+id/etr"/>
+
+        <TextView
+            style="@style/intext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME:" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/intext1"
+            android:id="@+id/ets"/>
+
+        <Button
+            android:id="@+id/bshow"
+            style="@style/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="callme"
+            android:text="Show" />
+
+    </GridLayout>
+
+
+</LinearLayout>

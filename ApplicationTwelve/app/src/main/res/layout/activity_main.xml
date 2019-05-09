@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img4"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="Employee Database"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Employee id"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Employee Name"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/etsalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Employee Salary"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnViewAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onViewAllClicked"
+        android:text="VIEW ALL"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onAddBtnClicked"
+        android:text="Add"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onReadBtnClicked"
+        android:text="Read"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onUpdateBtnClicked"
+        android:text="Update"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onDeleteBtnClicked"
+        android:text="Delete"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

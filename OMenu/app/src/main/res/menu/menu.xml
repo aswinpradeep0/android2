@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/File">
+
+        <item android:id="@+id/new1" android:title="NEW"></item>
+        <item android:id="@+id/exit1" android:title="Exit"></item>
+
+    </group>
+
+    <group android:id="@+id/help">
+
+        <item android:id="@+id/about" android:title="About"></item>
+
+
+    </group>
+
+</menu>

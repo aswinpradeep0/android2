@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:text="Filaname" />
+
+        <EditText
+            android:id="@+id/tctFn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tctFn"
+            android:text="Content" />
+
+        <EditText
+            android:id="@+id/txtCon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="99dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            />
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtCon"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/textView3"
+            android:onClick="onSaveClick"
+            android:text="SAVE" />
+
+        <Button
+            android:id="@+id/btnopen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/txtCon"
+            android:layout_alignBottom="@+id/btnsave"
+            android:layout_marginEnd="82dp"
+            android:layout_marginBottom="-3dp"
+            android:onClick="onOpenClick"
+            android:text="OPEN" />
+
+        <Button
+            android:id="@+id/btndownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="223dp"
+            android:text="DOWNLOAD"
+            android:onClick="onClickDownload"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
